@@ -1,0 +1,43 @@
+@font-face {
+    font-family: asghar;
+    src: url(./../fonts/IRANYekan.woff);
+}
+@font-face {
+    font-family: morad;
+    src: url(./../fonts/IRANYekanX-Bold.woff2);
+}
+body {
+    margin: 0;
+    background-color: #F1F1F1;
+    font-family: asghar;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0.5em 0.7em 0 1.4em;
+}
+.login {
+    background-color: #3fa87a;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    color: white;
+    border-radius: 0.7em;
+    margin: 0 0 0.4em 0;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1em;
+    font-size: 2.5em;
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1.2em;
+    font-size: 2.5em;
+    font-family: morad;
+}
