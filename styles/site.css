@@ -8,7 +8,7 @@
 }
 body {
     margin: 0;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     font-family: asghar;
 }
 .banner {
@@ -44,29 +44,74 @@ body {
     color: #23203F;
 }
 .contents{
-    display: flex;
-    justify-content: center;
-    margin: 3.5em;
-}
-.contents div{
-    margin: 2em 1em 1em 1em;
     /* border: 0.1em solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 13em 1em 0 1em;
+    color: #23203F;
     font-family:morad ;
-    font-size: 1.3em;
+}
+.contents1{
+    padding: 4em;
+    /* border: 0.1em solid red; */
+}
+.contents1 div{
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1em solid rgb(255, 0, 0); */
+}
+.contents2{
+    padding: 4em;
+    /* border: 0.1em solid red; */
+}
+.contents2 div{
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1em solid rgb(255, 0, 0); */
+
+}
+.contents3{
+    padding: 4em;
+    /* border: 0.1em solid red; */
+}
+.contents3 div{
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1em solid rgb(255, 0, 0); */
+
+}
+#contents4{
+    padding: 4em;
+    /* border: 0.1em solid red; */
+}
+#contents4 div{
+    display: flex;
+    flex-direction: column;
+    /* border: 0.1em solid rgb(255, 0, 0); */
 }
 .img1{
-    position: relative;
-    left: 2.5em;
+    max-width: 40%;
+    height: 51%;
+    margin-left: 3.4em;
 }
 .img2{
-    position: relative;
-    left: 3.2em;
+    max-width: 40%;
+    margin-left: 4em;
 }
 .img3{
-    position: relative;
-    left: 3.9em;
+    max-width: 38%;
+    margin-left: 4.9em;
 }
 .img4{
-    position: relative;
-    left: 3.6em;
+    max-width: 50%;
+    height: 49%;
+    margin-left: 4em;
+}
+.contents :hover{
+    border-radius: 2em;
+    background-color: #6565EC;
+}
+.s{
+    font-size: 1.5em;
+    margin-top: 2em;
 }
