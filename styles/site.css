@@ -26,6 +26,36 @@ body {
     border-radius: 0.7em;
     margin: 0 0 0.4em 0;
 }
+#mySidenav a {
+    position: fixed;
+    left: -110px;
+    transition: 0.7s;
+    padding: 0.5em;
+    width: 7em;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0.5em 0.5em 0;
+  }
+  #mySidenav a:hover {
+    left: 0;
+  }
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    top: 310px;
+    background-color: #23203F
+  }
+  #imgSupportr{
+    max-width: 30%;
+    margin: 0.5em;
+}
+h3{
+    font-family: asghar;
+    margin: 0;
+}
 .content1 {
     display: flex;
     justify-content: center;
@@ -46,6 +76,7 @@ body {
 .contents{
     /* border: 0.1em solid red; */
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 13em 1em 0 1em;
     color: #23203F;
